@@ -33,11 +33,11 @@ width: 800px;
 	
 }
 footer{
-	clear: both;
+	clear: both; background: rgba(255,255,255,1.00)
 }
 header > h1{
 	text-align: center;
-	color: rgba(31,27,27,1.00)
+	color: rgba(41,40,40,1.00)
 }
 #container article{
 	background-color: aqua;
