@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url("images/sunday.png") no-repeat fixed top right;
+}
+#container{
+width: 800px;
+	margin: 0 auto;
+}
+.left{
+	width:380px;
+	height: 200px;
+	background-color:rgba(255,255,255,.5); 
+	border-radius: 25px;
+	float: left;
+	margin: 0px 10px 10px 15px;
+	padding: 30px 30px 30px 30px;
+	border: solid 3px
+}
+
+.right{
+	width:380px;
+	height: 200px;
+	background-color:rgba(255,255,255,.5);
+	border-radius: 25px;
+	float: left;
+	margin: 0px 0px 10px 0px;
+	padding: 30px 30px 30px 30px;
+	display: none
+	
+}
+footer{
+	clear: both;
+}
+header > h1{
+	text-align: center;
+	color: rgba(31,27,27,1.00)
+}
+#container article{
+	background-color: aqua;
+}
